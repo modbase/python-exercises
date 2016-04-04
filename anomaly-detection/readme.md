@@ -14,7 +14,7 @@ The goal was to find the anomalies, or outliers in the set.
 Check the [IPython notebook](Anomaly Detection.ipynb) for more details.
 
 I tried to solve it with _k_-means to find the clusters and then find the points that are 
-too far from the cluster's centroids by using the Euclidian distance. 
+too far from the cluster's centroids by using the Euclidian distance. Outliers of a cluster are detected by using the median and the standard deviation of the distances of a cluster.
 
 This is a scatter plot of my attempt to solve this exercise:
 
